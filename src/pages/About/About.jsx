@@ -15,12 +15,12 @@ const About = () => {
         <br />
         <br />
                 <span className='font-bold'>Technologies Used: </span>
-                <ul>
+               
                     <li>React</li>
                     <li>React Router</li>
                     <li>JavaScript (ES6+)</li>
                     <li>CSS / Tailwind CSS</li>
-                </ul>
+               
             </p>
         </div>
     );
