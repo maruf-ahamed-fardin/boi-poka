@@ -1,10 +1,9 @@
 import React, { useMemo, useState } from 'react';
-import { useLoaderData } from 'react-router';
+import { useLoaderData } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { getStoredBook } from '../../Utility/addToDB';
 import Book from '../Book/Book';
-import { BsTypeH6, BsTypeItalic } from 'react-icons/bs';
 
 const ReadList = () => {
     const [sort, setSort] = useState("");

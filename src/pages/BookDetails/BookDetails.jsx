@@ -1,6 +1,6 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router';
-import { addToStoredDB } from '../../Utility/AddToDB';
+import { useLoaderData, useParams } from 'react-router-dom';
+import { addToStoredDB } from '../../Utility/addToDB';
 
 
 import Swal from 'sweetalert2'
